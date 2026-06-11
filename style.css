@@ -1,0 +1,428 @@
+/*user Log In Page  styles */
+
+/* Login page body styling */
+.login-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    /* Light background color */
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full height of the viewport */
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Login container */
+.login-container {
+    background-color: #ffffff;
+    /* White background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    width: 300px;
+    /* Fixed width for the form */
+    text-align: center;
+    /* Center align text */
+}
+
+/* Header */
+.login-container h1 {
+    font-size: 24px;
+    color: purple;
+    /* Primary color for the heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+}
+
+/* Input fields */
+.login-container input[type="text"],
+.login-container input[type="email"],
+/* Added email input */
+.login-container input[type="password"] {
+    width: 100%;
+    /* Full width */
+    padding: 10px;
+    /* Padding inside the fields */
+    margin-bottom: 15px;
+    /* Space below each field */
+    border: 1px solid #ccc;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+}
+
+
+/* Button styles */
+.login-container button {
+    background-color:purple;
+    /* Primary button color */
+    color: white;
+    /* Button text color */
+    padding: 10px;
+    /* Padding for button */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer on hover */
+    font-size: 16px;
+    /* Font size */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+    width: 100%;
+    /* Full width */
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color:purple;
+    /* Darker shade on hover */
+}
+
+/* Link styles */
+.login-container .link {
+    display: block;
+    /* Block display for better click area */
+    margin-top: 15px;
+    /* Space above the link */
+    color: purple;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.login-container .link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* Back to Homepage button */
+.login-container .btn {
+    background-color: #f4f4f4;
+    /* Light gray background */
+    color: purple;
+    /* Primary text color */
+    border: 1px solid purple;
+    /* Border color */
+    margin-top: 10px;
+    /* Space above button */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+.login-container .btn:hover {
+    background-color: purple;
+    /* Darken on hover */
+    color: white;
+    /* Change text color on hover */
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+ /* Catalogue Page Styles*/
+
+  /* Styling the page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color:purple;
+    color: white;
+}
+
+table td img {
+    width: 100px;
+    height: 100px;
+}
+
+.add-to-cart-btn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color:purple;
+}
+
+/* Popup and overlay styling */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    width: 300px;
+    text-align: center;
+}
+
+.popup.active {
+    display: block;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.overlay.active {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Add close button styling */
+.popup button {
+    background-color:purple;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* -----------------------------------------------------------------------------------------*/
+/*user Signup  styles */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0f9;  /* Light lavender background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main Container */
+.signup-page-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+}
+
+/* Header Styling */
+.signup-header {
+    margin-bottom: 20px;
+}
+
+.signup-logo {
+    margin-bottom: 10px;
+}
+
+.signup-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4b0082;  /* Dark Purple */
+}
+
+.signup-description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+
+/* Form Styling */
+.signup-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-label {
+    display: block;
+    font-size: 14px;
+    color: #4b0082;  /* Dark Purple */
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1c4e9;  /* Light purple border */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #7b1fa2;  /* Medium Purple */
+    outline: none;
+}
+
+/* Button Styling */
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    background-color: #7b1fa2;  /* Medium Purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6a1b9a;  /* Darker Purple */
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 12px;
+    background-color: #9575cd;  /* Light Purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #7e57c2;  /* Slightly darker light purple */
+}
+
+/* Existing Account Link */
+.existing-account {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-link {
+    color: #7b1fa2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+/* Account Type Selection */
+.account-type-selection {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.account-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Button Group for Account Types */
+.account-type-button {
+    padding: 12px;
+    background-color: #d1c4e9;  /* Lighter Purple */
+    color: #4b0082;  /* Dark Purple */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.account-type-button:hover {
+    background-color: #b39ddb;  /* Medium Light Purple */
+}
+
+/* Return Home Button */
+.return-home {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Styling */
+@media (max-width: 480px) {
+    .signup-page-container {
+        padding: 15px;
+    }
+
+    .signup-title {
+        font-size: 24px;
+    }
+
+    .input-field {
+        font-size: 14px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+/* -----------------------------------------------------------------------------------------*/
